@@ -1,0 +1,6 @@
+pthread_create - cria uma nova thread
+pthread_exit - conclui a chamada de thread
+pthread_join - espera que uma thread específica seja concluída
+pthread_yield - libera a cpu para que outra thread seja executada
+pthread_attr_init - cria e inicializa uma estrutura de atributos da thread
+pthread_attr_destroy - remove uma estrutura de atributos da thread
