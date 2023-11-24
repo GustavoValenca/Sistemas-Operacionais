@@ -1,0 +1,8 @@
+Terminal 1:
+    $ mkfifo meu_pipe
+    $ gzip -9 -c < meu_pipe > saida.gz &
+
+    - & - significa que vai rodar no background e liberar o terminal
+
+Terminal 2:
+    $ cat contatos.txt > meu_pipe

@@ -1,0 +1,10 @@
+Terminal 1
+    $ mkfifo pipe_teste
+    $ cat < pipe_teste
+
+    - O pipe fica esperando até obter algum dado
+
+Terminal 2
+    $ ls > pipe_teste
+
+    - a saída do comando ls será redirecionada para o piep nomeado "pipe_teste"
